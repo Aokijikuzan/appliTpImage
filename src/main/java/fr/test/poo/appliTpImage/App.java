@@ -8,8 +8,8 @@ public class App
 {
 	public static void main( String[] args )
 	{
-		
-		Fenetre f= new Fenetre();
+		ImageAppli app= new ImageAppli();
+		Fenetre f= new Fenetre(app);
 	
 		
 	}
